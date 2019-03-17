@@ -1,4 +1,9 @@
 from django.urls import include, path
 from . import views
 
-urlpatterns = [path('', views.IndexView.as_view())]
+app_name = 'chat'
+
+urlpatterns = [
+    path('', views.IndexView.as_view(), name='index'),
+    path('chat/', views.ChatView.as_view(), name='chat')
+]
