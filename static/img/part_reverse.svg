@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="17px" viewBox="0 0 27 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Part</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Telegram-/-Sent-Message" transform="translate(-287.000000, -16.000000)" fill="#E1FFC7" stroke="#BAD5C3" stroke-width="0.5">
+            <g id="Background">
+                <path d="M313.267605,32.75 L292.250732,16.5096895 L292.26227,24.5426645 C292.185188,27.2631031 290.644937,29.9963687 287.659099,32.7444649 C292.558282,32.6620576 296.206786,31.6597326 298.607899,29.7488909 L298.777128,29.6142157 L298.934753,29.7623049 C300.950987,31.6565693 304.370625,32.7156711 307.706566,32.75 C311.126132,32.75 311.505274,32.75 313.267605,32.75 Z" id="Part" transform="translate(300.500000, 24.500000) scale(-1, 1) translate(-300.500000, -24.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,18 +1,82 @@
-.chat-window{
+.chat-window {
+    width: 100%;
     height: 500px;
-    border: 2px solid #228f9a;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column-reverse;
+    border: 1px solid #228f9a;
+    border-radius: 6px;
     overflow: scroll;
-    width: 100%;
 }
 
-.bot-message{
-    background: #00a6e8;
-    color: white;
+.user-message,
+.bot-message {
+    width: 375px;
+    padding: 8px;
+    border-radius: 15px;
 }
 
-.user-message{
-    background: #dedede;
+.bot-message {
+    position: relative;
+    margin-left: 30px;
+    border: 1px solid #C3CEDE;
+    background: #FFFFFF;
     color: black;
+}
+
+.bot-message::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: -5px;
+    width: 27px;
+    height: 17px;
+    background: url("/static/img/part.svg") no-repeat;
+}
+
+.user-message {
+    position: relative;
+    border: 1px solid #BAD5C3;
+    background: #E1FFC7;
+    color: black;
+
+    /* Firefox */
+    margin-left: -moz-calc(100% - 405px);
+    /* WebKit */
+    margin-left: -webkit-calc(100% - 405px);
+    /* Opera */
+    margin-left: -o-calc(100% - 405px);
+    /* Standard */
+    margin-left: calc(100% - 405px);
+}
+
+.user-message::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    right: -5px;
+    width: 27px;
+    height: 17px;
+    background: url("/static/img/part_reverse.svg") no-repeat;
+}
+
+.bot-message p,
+.user-message p {
+    margin: 0;
+}
+
+.user-message:last-child,
+.bot-message:last-child {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border-radius: 15px !important;
+    width: calc(100% - 15px) !important;
+}
+
+.btn-primary {
+    border-radius: 15px !important;
 }
