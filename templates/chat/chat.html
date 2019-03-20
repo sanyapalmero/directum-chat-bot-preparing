@@ -12,6 +12,7 @@
     </div>
 </div>
 <div class="input-group">
+    {% csrf_token %}
     <input id="user-message" name="user-message" class="form-control">
     <span class="input-group-btn">
         <button id="send-message" class="btn btn-primary" type="submit">Отправить</button>
