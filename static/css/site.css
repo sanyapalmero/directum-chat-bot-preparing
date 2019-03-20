@@ -80,3 +80,50 @@
 .btn-primary {
     border-radius: 15px !important;
 }
+
+
+
+/* style for index */
+.promo {
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+    margin: 0 auto;
+    background: url("/static/img/chatbot.png") no-repeat;
+    background-size: 350px auto;
+    background-position: right top;
+}
+
+.left-column {
+    width: 650px;
+}
+
+.main-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 55px;
+    letter-spacing: 0.5px;
+}
+
+.details {
+    margin-bottom: 50px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.btn-link,
+.btn-link:hover {
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: #218f9a;
+    border: 1px solid #1f5e89;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-link:hover {
+    background-color: #1e6e75;
+}
