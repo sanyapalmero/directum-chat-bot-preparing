@@ -1,4 +1,18 @@
 .chat-window{
     height: 500px;
     border: 2px solid #228f9a;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: scroll;
+    width: 100%;
+}
+
+.bot-message{
+    background: #00a6e8;
+    color: white;
+}
+
+.user-message{
+    background: #dedede;
+    color: black;
 }

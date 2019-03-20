@@ -1,13 +1,20 @@
-{% extends "templates.html" %}
+{% extends "base.html" %}
 
 {% block content %}
-<div class="chat-window"></div>
+<div class="chat-window">
+    <div class="message">
+        <div class="bot-message">
+            <p>
+                Бот: Вас приветсвует чат-бот Джимми :)
+                Введите, пожалуйста, интересущий вас вопрос ниже, и я постараюсь на него ответить.
+            </p>
+        </div>
+    </div>
+</div>
 <div class="input-group">
-    <input type="search" class="form-control">
+    <input id="user-message" type="search" class="form-control">
     <span class="input-group-btn">
-        <button class="btn btn-primary" type="button">
-            Отправить
-        </button>
+        <button id="send-message" class="btn btn-primary" type="button">Отправить</button>
     </span>
 </div>
 {% endblock %}

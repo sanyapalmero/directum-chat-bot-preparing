@@ -14,3 +14,6 @@ class ChatView(View):
     def get(self, request):
         template_name = 'chat/chat.html'
         return render(request, template_name)
+
+    def post(self, request):
+        pass
