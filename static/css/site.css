@@ -28,9 +28,9 @@
     content: "";
     display: block;
     position: absolute;
-    bottom: -1px;
-    left: -5px;
-    width: 27px;
+    bottom: -2px;
+    left: -4px;
+    width: 27x;
     height: 17px;
     background: url("/static/img/part.svg") no-repeat;
 }
