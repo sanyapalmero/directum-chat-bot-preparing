@@ -30,3 +30,10 @@ class FaqView(View):
     def get(self, request):
         template_name = 'chat/faq.html'
         return render(request, template_name)
+
+
+class SupportView(View):
+    """Страница саппортов"""
+    def get(self, request):
+        template_name = 'chat/supports.html'
+        return render(request, template_name)
