@@ -23,3 +23,10 @@ class ChatView(View):
             return JsonResponse({'UserMessage':user_message, 'BotMessage':'Замечательно!'})
         else:
             return JsonResponse({'UserMessage':user_message, 'BotMessage':'Непонятный для меня запрос :('})
+
+
+class FaqView(View):
+    """FAQ страница"""
+    def get(self, request):
+        template_name = 'chat/faq.html'
+        return render(request, template_name)
